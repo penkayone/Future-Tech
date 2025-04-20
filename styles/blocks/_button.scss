@@ -24,8 +24,10 @@
   }
 
   &--accent {
+    font-weight: 500;
     color: var(--color-dark);
     background-color: var(--color-accent);
     border-color: var(--color-accent);
+    border-radius: rem(8);
   }
 }
