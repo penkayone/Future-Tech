@@ -624,4 +624,27 @@ button[aria-label]::before {
   }
 }
 
+.footer__body {
+  padding-block: clamp(2.5rem, 1.862745098rem + 2.614379085vw, 5rem);
+  border-bottom: var(--border);
+}
+.footer__menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+  colum-gap: clamp(1.25rem, 0.2941176471rem + 3.9215686275vw, 5rem);
+}
+.footer__menu-column {
+  display: grid;
+  row-gap: clamp(1rem, 0.681372549rem + 1.3071895425vw, 2.25rem);
+}
+.footer__menu-main-link {
+  font-weight: 500;
+  color: var(--color-light);
+}
+
+.header {
+  display: none !important;
+}
+
 /*# sourceMappingURL=main.css.map */
